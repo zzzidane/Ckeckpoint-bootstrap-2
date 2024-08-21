@@ -28,62 +28,109 @@
             </ul>
         </nav>
     </header>
-    <!-- Partie section produits -->
-    <section class="section-produit" id="produits">
-        <div class="container">
-            <h2>Nos produits</h2>
-            <div class="grid-produit">
-                <div class="card-produit">
-                    <img src="img/pexels-tdcat-437037.jpg" alt="">
-                    <h3>Casio</h3>
-                    <p>Montre tendance de bonne qualité</p>
-                    <button>Acheter maintenant</button>
+    <!-- Partie section acceuil -->
+    <div id="Accueil" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="3000ms">
+                <img src="img/pexels3.jpg" style="height: 70vh;" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                <h5>Parfait pour</h5>
+                <p>Les occasions spéciales, les rendez-vous professionnels et les soirées habillées.</p>
+            </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="3000ms">
+                <img src="img/pexels5.jpg" style="height: 70vh;" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Parfait pour </h5>
+                    <p>Les soirées habillées, les événements spéciaux et les looks audacieux.</p>
                 </div>
-                <div class="card-produit">
-                    <img src="img/pexels4.jpg" alt="">
-                    <h3>Rolex</h3>
-                    <p>Montre tendance de bonne qualité</p>
-                    <button>Acheter maintenant</button>
-                </div>
-                <div class="card-produit">
-                    <img src="img/pexels4.jpg" alt="">
-                    <h3>Hermes</h3>
-                    <p>Montre tendance de bonne qualité</p>
-                    <button>Acheter maintenant</button>
-                </div>
-                <div class="card-produit">
-                    <img src="img/pexels4.jpg" alt="">
-                    <h3>Lexus</h3>
-                    <p>Montre tendance de bonne qualité</p>
-                    <button>Acheter maintenant</button>
-                </div>
-                <div class="card-produit">
-                    <img src="img/pexels4.jpg" alt="">
-                    <h3>Lexus</h3>
-                    <p>Montre tendance de bonne qualité</p>
-                    <button>Acheter maintenant</button>
-                </div>
-                <div class="card-produit">
-                    <img src="img/pexels4.jpg" alt="">
-                    <h3>Lexus</h3>
-                    <p>Montre tendance de bonne qualité</p>
-                    <button>Acheter maintenant</button>
-                </div>
-                <div class="card-produit">
-                    <img src="img/pexels4.jpg" alt="">
-                    <h3>Lexus</h3>
-                    <p>Montre tendance de bonne qualité</p>
-                    <button>Acheter maintenant</button>
-                </div>
-                <div class="card-produit">
-                    <img src="img/pexels4.jpg" alt="">
-                    <h3>Lexus</h3>
-                    <p>Montre tendance de bonne qualité</p>
-                    <button>Acheter maintenant</button>
+            </div>
+            <div class="carousel-item" data-bs-interval="3000ms">
+                <img src="img/pexels-donaldtong94-23475.jpg" style="height: 70vh;" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Parfait pour</h5>
+                    <p>Le quotidien, les activités en plein air et les looks décontractés.</p>
                 </div>
             </div>
         </div>
-    </section>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <!-- Partie section produits -->
+    <div class="container-fluid mt-2" id="produits"> 
+        <h2>Nos produits</h2>
+        <div class="row mt-2">
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 ">
+                <div class="card" style="width: 18rem;">
+                    <img src="img/pexels1.jpg" img-fluid class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">La Chronos Élégance</h5>
+                        <p class="card-text">
+                            Un garde-temps intemporel qui allie élégance classique et précision suisse. Son cadran épuré, rehaussé d'aiguilles bleui, offre une lisibilité parfaite. Le bracelet en cuir véritable apporte une touche de raffinement à votre poignet.
+                        </p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <a href="#" class="btn btn-success">Acheter maintenant</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 ">
+                <div class="card" style="width: 18rem;">
+                    <img src="img/pexels2.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">La Tempo Urbain</h5>
+                        <p class="card-text">
+                            Une montre moderne et dynamique. Son design sportif, associé à un boîtier en acier inoxydable, lui confère une robustesse à toute épreuve. Le chronographe intégré vous permet de mesurer avec précision.
+                        </p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <a href="#" class="btn btn-success">Acheter maintenant</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 ">
+                <div class="card" style="width: 18rem;">
+                    <img src="img/pexels4.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">La Soleil Minuit</h5>
+                        <p class="card-text">
+                            Une montre mystérieuse et envoûtante, inspirée des nuits étoilées. Son cadran noir profond est illuminé par des index luminescents, tandis que les aiguilles dorées évoquent les rayons du soleil.
+                        </p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <a href="#" class="btn btn-success">Acheter maintenant</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 ">
+                <div class="card" style="width: 18rem;">
+                    <img src="img/pexels-tdcat-437037.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">La Nature Essentielle</h5>
+                        <p class="card-text">
+                            Une montre sobre et élégante, qui célèbre la beauté de la nature. Son cadran en nacre naturelle présente des reflets irisés uniques, tandis que les aiguilles fines glissent en douceur sur les heures. Le bracelet en cuir végétal apporte une touche.
+                        </p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <a href="#" class="btn btn-success">Acheter maintenant</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
     <!-- Partie section footer -->
     <footer>
         <ul class="footer-liens" id="contact">
@@ -91,7 +138,7 @@
             <li><a href="#privacy">Politique de confidentialité</a></li>
             <li><a href="#contact">Contactez-nous</a></li>
         </ul>
-        <p>&copy; 2024 Chrono24.. Tous droit réservés.</p>
+        <p>&copy; 2024 H-shop. Tous droit réservés.</p>
     </footer> 
 </body>
 </html>

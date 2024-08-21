@@ -3,19 +3,15 @@
     .card-produit{
         width: 100% !important;
     }
-
     .logo h1 span{
         display: none;
     }
-
-   
 }
 
 @media (min-width: 768px) and (max-width:  992px) {
     .card-produit{
         width: 50% !important;
     }
-   
 }
 
 
@@ -138,7 +134,7 @@ footer {
     padding: 20px 0;
     bottom: 0;
     width: 100%;
-    position: fixed;
+   
 }
 
 footer .footer-liens {
